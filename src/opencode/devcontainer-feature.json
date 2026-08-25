@@ -1,7 +1,7 @@
 {
     "name": "Opencode",
     "id": "opencode",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Installs opencode by SST with API keys configuration",
     "mounts": [
         {

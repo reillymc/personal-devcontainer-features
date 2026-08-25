@@ -1,7 +1,7 @@
 {
     "name": "Worktrees",
     "id": "worktrees",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Mounts the git worktrees root dir into the container",
     "onCreateCommand": "sh create.sh",
     "mounts": [
