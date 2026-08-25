@@ -8,8 +8,13 @@
     ],
     "mounts": [
         {
-            "source": "${localEnv:HOME}/.config/opencode",
-            "target": "/etc/opencode",
+            "source": "${localEnv:HOME}/.config/opencode/api-key",
+            "target": "/etc/opencode/api-key",
+            "type": "bind"
+        },
+        {
+            "source": "${localEnv:HOME}/.config/opencode/opencode.json",
+            "target": "/etc/opencode/opencode.json",
             "type": "bind"
         }
     ]
