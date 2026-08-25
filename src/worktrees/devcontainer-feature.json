@@ -1,0 +1,17 @@
+{
+    "name": "Worktrees",
+    "id": "worktrees",
+    "version": "0.0.1",
+    "description": "Mounts the git worktrees root dir into the container",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}/.config/opencode",
+            "target": "/etc/opencode",
+            "type": "bind"
+        }
+    ],
+    "onCreateCommand": "sh create.sh"
+}
